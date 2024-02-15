@@ -1,0 +1,20 @@
+section#benefit {
+  
+  background-color: white;
+}
+section#benefit .wrap {
+  transform: translateX(-100%);
+}
+section#benefit .wrap>* {
+
+}
+section#benefit .wrap h2 {
+  
+}
+section#benefit .wrap p {
+  
+}
+section#benefit .wrap a {
+  margin-top: 50px;
+  color: #009bfa;
+}

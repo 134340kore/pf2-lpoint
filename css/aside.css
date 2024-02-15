@@ -1,0 +1,30 @@
+aside{
+  position: fixed;
+  right: 20px;
+  top: calc(50% - 45px);
+}
+aside ul{
+
+}
+aside ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+
+aside ul li a{
+  font-size: 0;
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: gray;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.currentB{
+  background-color: blue;
+}
+.currentW{
+  background-color: white;
+}
+.active a{
+  background-color: orange;
+}
